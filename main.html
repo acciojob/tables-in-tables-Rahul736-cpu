@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="rtl">
 <head>
-  <title>Nested Tables Example</title>
+  <meta charset="UTF-8">
+  <title>Nested Tables RTL Example</title>
   <style>
     table {
       border-collapse: collapse;
       width: 100%;
       margin: 10px 0;
+      direction: rtl; /* ensures table layout is RTL */
     }
     table, th, td {
       border: 2px solid black;
     }
     th, td {
       padding: 8px;
-      text-align: center;
+      text-align: right; /* align text to the right */
     }
     .black-bg {
       background-color: black;
       color: white;
+    }
+    ul {
+      padding-right: 20px; /* adjust padding for RTL list */
     }
   </style>
 </head>
@@ -92,3 +97,4 @@
 
 </body>
 </html>
+
